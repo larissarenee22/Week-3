@@ -81,3 +81,21 @@ p {
   text-align: center;
   margin: 100px;
 }
+
+@media (max-width: 550px) {
+  .about-paragraph {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 45px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h2 {
+    font-size: 35px !important;
+  }
+  .email-link {
+    font-size: 25px !important;
+  }
+}
